@@ -1,0 +1,11 @@
+name: ChatGame
+version: '${project.version}'
+main: com.github.javanti.chatgame.ChatGame
+api-version: '1.20'
+depend: [Vault]
+commands:
+  chatGame:
+    permission: chat.game.command
+permissions:
+  chat.game.command:
+    default: op
